@@ -1,0 +1,6 @@
+:root{
+    --primary: #4CAF4F;
+}
+.greenbtn{
+ background-color: var(--primary)  !important;
+}
