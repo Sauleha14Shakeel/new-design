@@ -1,6 +1,17 @@
 :root{
     --primary: #4CAF4F;
+    --bgcolor:#F5F7FA;
+    --textcolor:#717171;
 }
 .greenbtn{
  background-color: var(--primary)  !important;
+}
+.green{
+    color: var(--primary);
+}
+.bg{
+    background-color: var(--bgcolor);
+}
+.text{
+    color: var(--textcolor);
 }
