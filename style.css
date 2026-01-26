@@ -4,7 +4,17 @@
     --textcolor:#717171;
 }
 .greenbtn{
- background-color: var(--primary)  !important;
+  background-color: var(--primary) !important;
+  border: 1px solid var(--primary) !important;
+  color: white !important;
+}
+
+.greenbtn:hover{
+  background-color: var(--bgcolor) !important;
+  color: black !important;
+}
+.greenbtn:hover i {
+  color: black !important;
 }
 .green{
     color: var(--primary);
